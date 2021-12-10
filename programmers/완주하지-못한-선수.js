@@ -9,11 +9,11 @@ function solution(participant, completion) {
         obj[i] = obj[i] - 1;
     };
     
-    for (let j in obj) {
-        if (obj[j]) {
-            return j;
+    for (let key in obj) {
+        if (obj[key]) {
+            return key;
         };
     };
 };
 
-// 2번째, 3번째 for문 이름짓기가 어려워요ㅜㅜ
+// 2번째 for문 이름짓기가 어려워요ㅜㅜ
