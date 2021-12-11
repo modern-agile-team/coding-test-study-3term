@@ -1,6 +1,6 @@
 function solution(lottos, win_nums) {
     
-    let answer = [];
+    const answer = [];
     let num = 0;
     let countzero = 0;
     let countmin = 0;
@@ -22,12 +22,7 @@ function solution(lottos, win_nums) {
     bottom = Math.min(7 - countmin, 6)
 
     answer.push(top, bottom)
-    console.log()
+
     return answer;
 }
-
-
-    
-    
-    
-    
+//배열을 const로 바꿔 봤는데 배열 이외에 다른 것도 바꿔야 하는 것이 있는지 감이 안잡힙니다. ㅜㅜ 
