@@ -1,5 +1,5 @@
 function solution(s) {
-    const str = s.split(" ").map(word => {
+    return s.split(" ").map(word => {
         let strs = '';
         
         for (let i = 0; i < word.length; i++) {
@@ -7,7 +7,5 @@ function solution(s) {
         }; 
         
         return strs;
-    });
-    
-    return str.join(" ");
+    }).join(" ");
 };
