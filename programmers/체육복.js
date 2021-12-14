@@ -9,7 +9,7 @@ function solution(n, lost, reserve) {
     };
 
     reserve = reserve.filter(st => st).sort();
-    lost = lost.sort();
+    lost.sort();
     
     for (let i = 0 ; i < reserve.length; i++) {
         for (let j = 0 ; j < lost.length; j++) {
