@@ -11,7 +11,6 @@ function solution(dartResult) {
     let newArray = newResult.split(" ");
     let getStarIndex = [];
     newArray.forEach((item, index) => {
-        console.log(item);
         if (item.match(/\*{1,}/g).length > 1) {
             getStarIndex.push(index);
         }
