@@ -13,6 +13,6 @@ function solution (absolutes, signs){
     for(let i = 0; i < absolutes.length; i++){
         if(signs[i] === true){
             answer += absolutes[i];
-        }else{answer -= absolutes[i];}
+        } else {answer -= absolutes[i];}
     }return answer;
 }
