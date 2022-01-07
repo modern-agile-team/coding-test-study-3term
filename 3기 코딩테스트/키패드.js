@@ -2,7 +2,7 @@ function solution(numbers, hand) {
   let result = "";
 
   function location(arr1, arr2) {
-    let load = Math.abs(arr1[0] - arr2[0]) + Math.abs(arr1[1] - arr2[1]);
+    const load = Math.abs(arr1[0] - arr2[0]) + Math.abs(arr1[1] - arr2[1]);
     return load;
   }
 
@@ -32,8 +32,8 @@ function solution(numbers, hand) {
       right = number;
       result += "R";
     } else {
-      let leftLoad = location(left, number);
-      let rightLoad = location(right, number);
+      const leftLoad = location(left, number);
+      const rightLoad = location(right, number);
       if (leftLoad === rightLoad) {
         if (hand === "left") {
           left = number;
