@@ -2,7 +2,7 @@ function solution(array, commands){
     
     const result = [];
 
-    for ( let eachCommand of commands ) {
+    for (let eachCommand of commands) {
         let arrayEachCommand = [];
         for (let i = eachCommand[0]; i<=eachCommand[1]; i++) {
             arrayEachCommand.push(array[i-1]);

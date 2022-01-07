@@ -8,7 +8,7 @@ function solution(absolutes,signs) {
     },0);
     return result;
 }
-
+console.log(solution([1,2,3,4],[true,false,false,true]))
 
 // //for 문을 이용한 풀이
 // function solution(absolutes,signs) {

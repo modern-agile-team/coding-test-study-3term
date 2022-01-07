@@ -37,3 +37,4 @@ objectCompletion[person] = "1"; 로 요소 넣어줄때는 들어가는데
 objectCompletion.person = "1";
 >> 아마 . 으로 요소 추가해줄 때는 걍 . 뒤에 오는 변수가 아니라 문자 자체라고 인식하나봄
 */
+
