@@ -44,7 +44,7 @@ function solution(numbers, hand) {
             } else {
                 left = location[numbers[i]];
                 result += 'L';
-            }
+            };
         }
     }
     return result;
