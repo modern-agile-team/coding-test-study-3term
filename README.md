@@ -1,78 +1,82 @@
 # 💻 우아한 애자일 3기 코딩테스트 스터디
+
 의지가 있는 학생들을 선별하여 ‘SW 개발 전문 동아리’인 ‘우아한 애자일’을 개설하였다.
 
-* 동아리명 : **우아한 애자일**  
-* 활동 기간 : 2021.12.06(월) ~ 2022.08.31(수)
-* 기수 : 3기
+-   동아리명 : **우아한 애자일**
+-   활동 기간 : 2021.12.06(월) ~ 2022.08.31(수)
+-   기수 : 3기
 
 <br>
 
 ## 👨🏻‍💻 우아한 코더
-* 팀원 :
-   - **이일성** <[ilsung98](https://github.com/ilsung98)>
-      - 블로그 : https://blog.naver.com/koreas8824
-   - **김성제** <[tjdwp0211](https://github.com/tjdwp0211)>
-      - 블로그 : https://blog.naver.com/rlatjdwp0211
-   - **송현경** <[cheuniss](http://github.com/cheuniss)>
-      - 블로그 : http://songteddybear.tistory.com
-   - **이수형** <[SuBroooo](http://github.com/SuBroooo)>
-      - 블로그 : https://blog.naver.com/clark9810
-   - **백승범** <[SeungBum123](https://github.com/SeungBum123)>
-      - 블로그 : https://blog.naver.com/wer06099
-   - **이하람** <[]()>
-      - 블로그 : 
-   - **이한결** <[leephoter](http://github.com/leephoter)>
-      - 블로그 : http://velog.io/@leephoter
-   - **정용훈** <[Yonghoon-Jung](https://github.com/Yonghoon-Jung)>
-      - 블로그 : https://dehw.tistory.com/
-   - **이미나** <[Lee-Mina](https://github.com/Lee-Mina)>
-      - 블로그 : https://blog.naver.com/srs000619
-   - **이재희** <[leejaehee00](https://github.com/leejaehee00)>
-      - 블로그 : https://blog.naver.com/ee8785
+
+-   팀원 :
+    -   **김성제** <[tjdwp0211](https://github.com/tjdwp0211)>
+        -   블로그 : https://blog.naver.com/rlatjdwp0211
+    -   **송현경** <[cheuniss](http://github.com/cheuniss)>
+        -   블로그 : http://songteddybear.tistory.com
+    -   **이수형** <[SuBroooo](http://github.com/SuBroooo)>
+        -   블로그 : https://blog.naver.com/clark9810
+    -   **백승범** <[SeungBum123](https://github.com/SeungBum123)>
+        -   블로그 : https://blog.naver.com/wer06099
+    -   **이하람** <[]()>
+        -   블로그 :
+    -   **이한결** <[leephoter](http://github.com/leephoter)>
+        -   블로그 : http://velog.io/@leephoter
+    -   **정용훈** <[Yonghoon-Jung](https://github.com/Yonghoon-Jung)>
+        -   블로그 : https://dehw.tistory.com/
+    -   **이미나** <[Lee-Mina](https://github.com/Lee-Mina)>
+        -   블로그 : https://blog.naver.com/srs000619
+    -   **이재희** <[leejaehee00](https://github.com/leejaehee00)>
+        -   블로그 : https://blog.naver.com/ee8785
 
 <br>
 
 ## 💡 동아리 활동
+
 1. **주 5일 미팅** : 매일 “어제 한 일, 오늘 할 일”에 대한 대화를 나누며 스터디를 진행합니다.
-2. **테크톡** : 모두가 IT 강사가 되어 2주에 한 번씩 기술 강연을 진행합니다. 
-맡은 Topic에 대해서는 전문가가 될 정도로 공부하여 서로에게 지식을 나누어줍니다. 
-“내가 할 공부를 남이 대신 해주어서 공부할 시간을 단축하고 효율을 높이자”는 취지입니다.
-3. **코딩 컨벤션** : 단순히 개발만을 목적으로 하지 않습니다. 
-효율적이고 가독성 좋은 코드를 유지하며, 실제 유지보수가 가능하도록 코딩합니다.
-4. **코드 리뷰** : 개발자 대회에서 인정받은 팀장의 코딩 노하우를 코드 리뷰를 통해 공유하고, 
-팀원들의 잘못된 코드와 습관을 지적하며 효율적인 성장을 추구합니다.
-5. **협업** : 프런트엔드팀과 백엔드팀으로 나누어 각자 맡은 역할을 수행합니다. 
-백엔드팀은 DB설계 및 구현, API 서버 설계 및 구현, 전체 시스템 아키텍쳐 설계 등을 맡고, 
-프런트엔드팀은 구현된 API를 통해 웹 페이지를 구현합니다. 
-백엔드 팀과 협의하여 일정 부분의 기능 구현을 프런트에서 맡기도 합니다.
-6. **알고리즘** : 효율적인 코드를 위한 사고력을 키웁니다. 
-sort, dfs-bfs, 완전탐색, 시뮬레이션, 구현 등에 대한 정도로 취업을 위해 필요한 만큼만 다룹니다.
-7. **멘티이자 멘토** : 선배가 동아리를 수료하면, 멘토로서 멘티의 코드를 리뷰해줍니다. 
-즉, 3기가 선발되면 2기가 멘토 역할을 수행하며 1인 2명씩 관리해줍니다. 
-실제 개발 경험을 통해 효율적인 코드와 개발 방법들에 대한 노하우를 공유해 줍니다. 
-이를 통해 선배는 또 한 번 성장하게 되며, 리더로서 나아갑니다. 
-또한 선배와 후배의 유대감을 형성하고, IT를 전문적으로 배우고자하는 학생들의 기대를 충족시켜줄 수 있습니다.
+2. **테크톡** : 모두가 IT 강사가 되어 2주에 한 번씩 기술 강연을 진행합니다.
+   맡은 Topic에 대해서는 전문가가 될 정도로 공부하여 서로에게 지식을 나누어줍니다.
+   “내가 할 공부를 남이 대신 해주어서 공부할 시간을 단축하고 효율을 높이자”는 취지입니다.
+3. **코딩 컨벤션** : 단순히 개발만을 목적으로 하지 않습니다.
+   효율적이고 가독성 좋은 코드를 유지하며, 실제 유지보수가 가능하도록 코딩합니다.
+4. **코드 리뷰** : 개발자 대회에서 인정받은 팀장의 코딩 노하우를 코드 리뷰를 통해 공유하고,
+   팀원들의 잘못된 코드와 습관을 지적하며 효율적인 성장을 추구합니다.
+5. **협업** : 프런트엔드팀과 백엔드팀으로 나누어 각자 맡은 역할을 수행합니다.
+   백엔드팀은 DB설계 및 구현, API 서버 설계 및 구현, 전체 시스템 아키텍쳐 설계 등을 맡고,
+   프런트엔드팀은 구현된 API를 통해 웹 페이지를 구현합니다.
+   백엔드 팀과 협의하여 일정 부분의 기능 구현을 프런트에서 맡기도 합니다.
+6. **알고리즘** : 효율적인 코드를 위한 사고력을 키웁니다.
+   sort, dfs-bfs, 완전탐색, 시뮬레이션, 구현 등에 대한 정도로 취업을 위해 필요한 만큼만 다룹니다.
+7. **멘티이자 멘토** : 선배가 동아리를 수료하면, 멘토로서 멘티의 코드를 리뷰해줍니다.
+   즉, 3기가 선발되면 2기가 멘토 역할을 수행하며 1인 2명씩 관리해줍니다.
+   실제 개발 경험을 통해 효율적인 코드와 개발 방법들에 대한 노하우를 공유해 줍니다.
+   이를 통해 선배는 또 한 번 성장하게 되며, 리더로서 나아갑니다.
+   또한 선배와 후배의 유대감을 형성하고, IT를 전문적으로 배우고자하는 학생들의 기대를 충족시켜줄 수 있습니다.
 
 <br>
 
 ## 📈 무엇을 왜 하는가?
-* 언어 : 자바스크립트, SQL
-* 저지 사이트 : [프로그래머스](https://programmers.co.kr/learn/challenges)  
-코딩 문제 풀이를 통하여 자바스크립트와 SQL 문법을 익히고, 효율적인 코딩과 컨벤션이 무엇인지 공부한다.
-궁극적으로 자바스크립트 언어를 통해 웹 서비스를 개발하기 위함이다.
+
+-   언어 : 자바스크립트, SQL
+-   저지 사이트 : [프로그래머스](https://programmers.co.kr/learn/challenges)  
+    코딩 문제 풀이를 통하여 자바스크립트와 SQL 문법을 익히고, 효율적인 코딩과 컨벤션이 무엇인지 공부한다.
+    궁극적으로 자바스크립트 언어를 통해 웹 서비스를 개발하기 위함이다.
 
 <br>
 
 ## 🔍 어떻게 하는가?
+
 1. 주어진 코딩테스트 과제를 수행
 2. 풀이한 코딩 문제를 '파일명.js'로 만든 후 관련 폴더(ex: programmers)에 저장
 3. '파일명.js'를 개인별 Fork한 Repo의 Branch(ex: 각자 이름)로 PUSH
 4. 개인별 깃허브 Repo에 PUSH된 Branch를 [wooahan-agile/coding-test-study-3term](https://github.com/wooahan-agile/coding-test-study-3term)의 개인 Branch(ex: 각자 이름)로 PR을 보냄
 5. 리뷰어 각 **멘토**가 도착한 PR을 검토하여 코드 리뷰
 6. 해당 과정을 반복  
--> 자바스크립트 문법에 적응 & 효율적인 코딩과 컨벤션을 유지할 수 있을 때까지
+   -> 자바스크립트 문법에 적응 & 효율적인 코딩과 컨벤션을 유지할 수 있을 때까지
 
-* 아래 과정을 따라하세요❗️
+-   아래 과정을 따라하세요❗️
+
 ```
 # 1. 우아한 애자일의 코테 저장소 Fork
 # 2. 본인의 코테 저장소를 Clone (로컬의 저장소 폴더가 생성된다.)
@@ -103,7 +107,7 @@ $ cd programmers
 # 7. 깃 Staging Area에 저장 (ex: git add 파일명)
 # 파일명에 "."을 하면 현재 폴더의 전체 파일을 tracked함.
 # 파일명에 "-a"(all의 약자)을 하면 ".git" 폴더가 위치한 루트 경로부터 전체 파일을 tracked 함.
-$ git add -a 
+$ git add -a
 
 # 8. ".git" 폴더에 저장 (ex: git commit -m "브랜치명(이름): 메세지") -> "-m"은 message의 약자
 $ git commit -m "kimjisu: 짝수와 홀수 풀이"
@@ -119,7 +123,9 @@ $ git push origin kimjisu
 <br>
 
 ## 🔖 예시
-* 최적화 전 코드
+
+-   최적화 전 코드
+
 ```javascript
 /*
  * for가 중복되기에 이를 하나로 짤 수 있는 방향으로 가는 것이 좋다.
@@ -127,7 +133,7 @@ $ git push origin kimjisu
  * sum += a가 아닌 증가하는 값을 그대로 넣어주면 된다. -> sum += i;
  * else는 최대한 삼가고, else if로 조건을 명시해주는 것이 좋다.
  */
- 
+
 function solution(a, b) {
     let sum = 0;
     if (a === b) {
@@ -135,19 +141,21 @@ function solution(a, b) {
     } else if (a > b) {
         for (let i = a; i >= b; i--) {
             sum += a;
-            a = a-1;
+            a = a - 1;
         }
         return sum;
     } else {
         for (let i = a; i <= b; i++) {
             sum += a;
-            a = a+1;
+            a = a + 1;
         }
         return sum;
     }
 }
-```  
-* 최적화 후 코드...
+```
+
+-   최적화 후 코드...
+
 ```javascript
 /*
  * 선언되는 변수가 for나 while, if 등에서 한번만 사용된다면 사용된 구문 바로 상단에 선언해주는 것이 좋다. -> 어디서 사용된 것인지 알기가 좋으며, 최상단에 선언된 변수는 여러번 사용됐다는 걸 암묵적으로 알 수 있다.
@@ -159,7 +167,7 @@ function solution(a, b) {
 
 function solution(a, b) {
     const MIN = Math.min(a, b),
-          MAX = Math.max(a, b);
+        MAX = Math.max(a, b);
 
     let sum = 0;
     for (let num = MIN; num <= MAX; num++) {
