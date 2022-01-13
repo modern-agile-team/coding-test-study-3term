@@ -1,3 +1,4 @@
+// 다시 제출 ㅎㅎ
 function solution(n, arr1, arr2) {
     const LEN_MAP = n;
 
