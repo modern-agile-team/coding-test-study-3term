@@ -1,7 +1,6 @@
-html {
-  background: rgb(92, 92, 92);
-}
+/* 1 */
 body {
+  background: rgb(92, 92, 92);
   margin: 0 auto;
   width: 360px;
   height: 775px;
@@ -87,9 +86,8 @@ nav {
   width: 120px;
   padding: auto;
   align-items: center;
-  align-content: center;
-  text-align: center;
   justify-content: center;
+/*  2  */
 }
 i {
   display: flex;
@@ -100,7 +98,6 @@ i {
   align-items: center;
   padding: auto;
   width: 120px;
-  text-align: center;
   justify-content: center;
 }
 .a3 {
@@ -108,8 +105,6 @@ i {
   align-items: center;
   padding: auto;
   width: 120px;
-  text-align: center;
-  align-content: center;
   justify-content: center;
 }
 .verticalLine {
@@ -133,7 +128,7 @@ i {
 .wrap {
   text-align: center;
 }
-.plus {
+.plus, .minus {
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -143,17 +138,8 @@ i {
   box-shadow: 2px 2px 3px rgb(216, 216, 216);
   font-size: 20px;
 }
+/* 3 */
 
-.minus {
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  background: rgb(247, 247, 247);
-  border: 0;
-  outline: 0;
-  box-shadow: 2px 2px 3px rgb(216, 216, 216);
-  font-size: 20px;
-}
 input:hover {
   color: white;
   background: rgb(47, 69, 82);
