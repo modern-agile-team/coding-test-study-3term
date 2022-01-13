@@ -23,10 +23,16 @@ function solution(numbers, hand) {
     middleNumber: [2, 5, 8, 0],
   };
 
-  console.log(handNumber);
-
   numbers.forEach((number) => {
-    console.log(number);
+    const LEFTDISTANCE1D =
+      numbersLocation[leftHandLocation][0] - numbersLocation[number][0];
+    const LEFTDISTANCE2D =
+      numbersLocation[leftHandLocation][1] - numbersLocation[number][1];
+    const RIGHTDISTANCE1D =
+      numbersLocation[rightHandLocation][0] - numbersLocation[number][0];
+    const RIGHTDISTANCE2D =
+      numbersLocation[rightHandLocation][1] - numbersLocation[number][1];
+
     if (handNumber.leftHand.includes(number)) {
       leftHandLocation = number;
       answer += 'L';
@@ -37,39 +43,18 @@ function solution(numbers, hand) {
       // 가운데 숫자 거리 계산
       // 현재 왼손 위치와 눌러야 하는 번호의 좌표 차이
       // 현재 오른손 위치와 눌러야 하는 번호의 좌표 차이 => 왼손, 오른손 비교 -> 차이가 적은 손으로 누르기
-      console.log(leftHandLocation);
-      console.log(numbersLocation[leftHandLocation]);
+
       if (
         // 현재 왼손 위치와 눌러야 하는 번호의 거리가 오른손보다 멀다면
-        Math.abs(
-          numbersLocation[leftHandLocation][0] - numbersLocation[number][0]
-        ) +
-          Math.abs(
-            numbersLocation[leftHandLocation][1] - numbersLocation[number][1]
-          ) >
-        Math.abs(
-          numbersLocation[rightHandLocation][0] - numbersLocation[number][0]
-        ) +
-          Math.abs(
-            numbersLocation[rightHandLocation][1] - numbersLocation[number][1]
-          )
+        Math.abs(LEFTDISTANCE1D) + Math.abs(LEFTDISTANCE2D) >
+        Math.abs(RIGHTDISTANCE1D) + Math.abs(RIGHTDISTANCE2D)
       ) {
         rightHandLocation = number;
         answer += 'R';
       } else if (
         // 현재 오른손 위치와 눌러야 하는 번호의 거리가 왼손보다 멀다면
-        Math.abs(
-          numbersLocation[leftHandLocation][0] - numbersLocation[number][0]
-        ) +
-          Math.abs(
-            numbersLocation[leftHandLocation][1] - numbersLocation[number][1]
-          ) <
-        Math.abs(
-          numbersLocation[rightHandLocation][0] - numbersLocation[number][0]
-        ) +
-          Math.abs(
-            numbersLocation[rightHandLocation][1] - numbersLocation[number][1]
-          )
+        Math.abs(LEFTDISTANCE1D) + Math.abs(LEFTDISTANCE2D) <
+        Math.abs(RIGHTDISTANCE1D) + Math.abs(RIGHTDISTANCE2D)
       ) {
         leftHandLocation = number;
         answer += 'L';
