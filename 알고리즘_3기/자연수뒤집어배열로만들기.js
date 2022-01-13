@@ -1,10 +1,9 @@
 function solution(n) {
-  const arr = [];
-  const num = String(n).split("");
-
-  for (let i of num) {
-    arr.push(Number(i));
-  }
-
-  return arr.reverse();
+  return n
+    .toString()
+    .split("")
+    .reverse()
+    .map((n) => (n = parseInt(n)));
 }
+
+console.log(solution(12345));
