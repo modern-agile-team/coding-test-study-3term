@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section:hover {
+  background-color: #3080db;
+  color: #fff;
+  cursor: pointer;
+}
+
+.section:after {
+  position: relative;
+  top: 10px;
+  width: 70px;
+  content: "";
+  border-bottom: solid 2px #fff;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.section:hover:after {
+  transform: scaleX(1);
+}
+
+/*Desktop Styles*/
+@media only screen and (max-width: 1920px) {
+  .menu {
+    background-color: #5995da;
+    height: 80px;
+  }
+
+  .header {
+    background-color: #b2d6ff;
+    height: 450px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    height: 650px;
+    width: 33.3%;
+  }
+
+  .feature-1 {
+    background-color: #f5cf8e;
+  }
+
+  .feature-2 {
+    background-color: #f09a9d;
+  }
+
+  .feature-3 {
+    background-color: #c8c6fa;
+  }
+
+  .sign-up {
+    background-color: #d6e9fe;
+    height: 250px;
+  }
+
+  .content {
+    background-color: #eaedf0;
+    height: 600px;
+  }
+}
+
+/*Tablet Styles*/
+@media only screen and (max-width: 1280px) {
+  .menu {
+    background-color: #5995da;
+    height: 80px;
+  }
+
+  .header {
+    background-color: #b2d6ff;
+    height: 300px;
+  }
+
+  .content {
+    background-color: #eaedf0;
+    height: 600px;
+  }
+
+  .sign-up,
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    height: 400px;
+    width: 50%;
+  }
+  .sign-up {
+    background-color: #d6e9fe;
+  }
+
+  .feature-1 {
+    background-color: #f5cf8e;
+  }
+
+  .feature-2 {
+    background-color: #f09a9d;
+  }
+
+  .feature-3 {
+    background-color: #c8c6fa;
+  }
+}
+
+/*Mobile Styles*/
+@media only screen and (max-width: 720px) {
+  .page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    background-color: #5995da;
+    height: 80px;
+  }
+
+  .header {
+    background-color: #b2d6ff;
+    height: 300px;
+  }
+
+  .content {
+    background-color: #eaedf0;
+    height: 600px;
+  }
+
+  .sign-up {
+    background-color: #d6e9fe;
+    height: 300px;
+  }
+
+  .feature-1 {
+    background-color: #f5cf8e;
+    height: 300px;
+  }
+
+  .feature-2 {
+    background-color: #f09a9d;
+    height: 300px;
+  }
+
+  .feature-3 {
+    background-color: #c8c6fa;
+    height: 300px;
+  }
+}
