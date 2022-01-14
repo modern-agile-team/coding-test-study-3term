@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+}
+@media screen and (min-width: 1025px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1440px;
+    height: auto;
+    align-content: start;
+  }
+
+  .header {
+    background-color: rgb(80, 80, 80);
+    grid-column: 1 / span 3;
+    height: 367px;
+  }
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 20px;
+    text-align: center;
+    width: 1176px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+  }
+  div[class^="nav-menu"] {
+    padding: 20px 40px;
+    cursor: pointer;
+  }
+  div[class^="nav-menu"]:hover:after {
+    transform: scaleX(1);
+  }
+  div[class^="nav-menu"]:after {
+    display: block;
+    content: "";
+    border-bottom: solid 10px #dfdfdf;
+    transform: scaleX(0);
+    transition: transform 1s ease-in-out;
+    animation: show 3s forwards;
+    animation-delay: 1.2s;
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-fill-mode: both;
+  }
+  @keyframes show {
+    0% {
+      border-bottom: solid 10px rgba(37, 37, 37, 0.2);
+    }
+
+    to {
+      border-bottom: solid 10px royalblue;
+    }
+  }
+  div[class^="nav-menu"]:hover {
+    background-color: rgba(37, 37, 37, 0.2);
+  }
+
+  .feature-1 + .feature-2 + .feature-3 {
+    height: 550px;
+  }
+  .feature-1 {
+    background-color: #93b4c0;
+  }
+  .feature-2 {
+    background-color: #32474e;
+  }
+  .feature-3 {
+    background-color: #145369;
+  }
+  .feature-1:hover {
+    background-color: #638491;
+  }
+  .feature-2:hover {
+    background-color: #263135;
+  }
+  .feature-3:hover {
+    background-color: #133744;
+  }
+  div[class^="feature"]:hover {
+    /* background: rgba(36, 36, 36, 0.8); */
+    cursor: pointer;
+  }
+  .signup {
+    background-color: rgb(203, 214, 219);
+    grid-column: 1 / span 3;
+    height: 288px;
+    text-align: center;
+  }
+  .signup-text {
+    line-height: 10;
+    font-size: 30px;
+  }
+  .content {
+    background-color: gray;
+    grid-column: 1 / span 3;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+    height: 1813px;
+  }
+
+  .header {
+    background-color: rgb(80, 80, 80);
+    grid-column: 1 / span 2;
+  }
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 20px;
+    text-align: center;
+    width: 768px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+  }
+  div[class^="nav-menu"] {
+    padding: 20px 0px;
+    cursor: pointer;
+  }
+  div[class^="nav-menu"]:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  div[class^="nav-menu"]:hover:after {
+    transform: scaleX(1);
+  }
+  div[class^="nav-menu"]:after {
+    display: block;
+    content: "";
+    border-bottom: solid 10px #dfdfdf;
+    transform: scaleX(0);
+    transition: transform 1s ease-in-out;
+    animation: show 3s forwards;
+    animation-delay: 1.2s;
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-fill-mode: both;
+  }
+  @keyframes show {
+    0% {
+      border-bottom: solid 10px rgba(37, 37, 37, 0.2);
+    }
+
+    to {
+      border-bottom: solid 10px royalblue;
+    }
+  }
+  .feature-1 {
+    background-color: #93b4c0;
+    grid-column: 1 / span 2;
+  }
+  .feature-2 {
+    background-color: #32474e;
+  }
+  .feature-3 {
+    background-color: #145369;
+  }
+  .feature-1:hover {
+    background-color: #638491;
+  }
+  .feature-2:hover {
+    background-color: #263135;
+  }
+  .feature-3:hover {
+    background-color: #133744;
+  }
+  .signup {
+    background-color: brown;
+  }
+  .content {
+    background-color: gray;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 768px;
+  }
+
+  .header {
+    background-color: rgb(80, 80, 80);
+    height: 350px;
+  }
+  div[class^="nav-menu"]:hover {
+    background-color: rgba(37, 37, 37, 0.2);
+  }
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(1, 5fr);
+
+    text-align: center;
+    width: 768px;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+  }
+  .signup-text {
+    display: none;
+  }
+  div[class^="nav-menu"] {
+    padding: 20px 0px;
+    cursor: pointer;
+  }
+  div[class^="nav-menu"]:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  div[class^="nav-menu"]:hover:after {
+    transform: scaleX(0.2);
+  }
+  div[class^="nav-menu"]:after {
+    display: block;
+    content: "";
+    border-bottom: solid 10px #dfdfdf;
+    transform: scaleX(0);
+    transition: transform 1s ease-in-out;
+    animation: show 3s forwards;
+    animation-delay: 1.2s;
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-fill-mode: both;
+  }
+  @keyframes show {
+    0% {
+      border-bottom: solid 10px rgba(37, 37, 37, 0.2);
+    }
+
+    to {
+      border-bottom: solid 10px royalblue;
+    }
+  }
+  .signup-text {
+    display: none;
+  }
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    height: 367px;
+  }
+  .feature-1 {
+    background-color: #93b4c0;
+  }
+  .feature-2 {
+    background-color: #32474e;
+  }
+  .feature-3 {
+    background-color: #145369;
+  }
+  .feature-1:hover {
+    background-color: #638491;
+  }
+  .feature-2:hover {
+    background-color: #263135;
+  }
+  .feature-3:hover {
+    background-color: #133744;
+  }
+  div[class^="feature"]:hover {
+    /* background: rgba(36, 36, 36, 0.8); */
+    cursor: pointer;
+  }
+  .signup {
+    background-color: brown;
+    height: 367px;
+  }
+  .content {
+    background-color: gray;
+    height: 367px;
+  }
+}
