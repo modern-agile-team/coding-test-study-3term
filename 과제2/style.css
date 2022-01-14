@@ -37,7 +37,7 @@
 }
 
 /*Desktop Styles*/
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 1281px) and (max-width: 1920px) {
   .menu {
     background-color: #5995da;
     height: 80px;
@@ -70,16 +70,18 @@
   .sign-up {
     background-color: #d6e9fe;
     height: 250px;
+    order: 1;
   }
 
   .content {
     background-color: #eaedf0;
     height: 600px;
+    order: 2;
   }
 }
 
 /*Tablet Styles*/
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 721px) and (max-width: 1280px) {
   .menu {
     background-color: #5995da;
     height: 80px;
